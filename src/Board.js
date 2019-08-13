@@ -40,7 +40,7 @@ class Board extends Component {
     this.createRow = this.createRow.bind(this);
     this.flipCellsAround = this.flipCellsAround.bind(this);
     this.state = {
-      hasWon: !false,
+      hasWon: false,
       board: this.createBoard()
     };
   }
